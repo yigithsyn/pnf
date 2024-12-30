@@ -16,7 +16,7 @@ maintainers = [
 description = "Planar Near Field Antenna Measurement Support Routines"
 readme      = "README.md"
 license     = {file = "LICENSE"}
-keywords    = ["antnnea", "measurement", "nearfield", "near field", "planar near field"]
+keywords    = ["antenna", "measurement", "nearfield", "near field", "planar near field"]
 classifiers = [
   "Development Status :: 1 - Planning"
 ]
