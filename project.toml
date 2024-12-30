@@ -1,0 +1,46 @@
+[build-system]
+requires      = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
+name            = "pnf"
+dynamic         = ["version"]
+dependencies    = []
+requires-python = ">=3.8"
+authors         = [
+  {name = "Hüseyin YİĞİT", email = "yigit.hsyn@gmail.com"},
+]
+maintainers = [
+  {name = "Hüseyin YİĞİT", email = "yigit.hsyn@gmail.com"},
+]
+description = "Planar Near Field Antenna Measurement Support Routines"
+readme      = "README.md"
+license     = {file = "LICENSE"}
+keywords    = ["antnnea", "measurement", "nearfield", "near field", "planar near field"]
+classifiers = [
+  "Development Status :: 1 - Planning"
+]
+
+
+# [project.optional-dependencies]
+# gui = ["PyQt5"]
+# cli = [
+#   "rich",
+#   "click",
+# ]
+
+# [project.urls]
+# Homepage = "https://example.com"
+# Documentation = "https://readthedocs.org"
+# Repository = "https://github.com/me/spam.git"
+# "Bug Tracker" = "https://github.com/me/spam/issues"
+# Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+# [project.scripts]
+# spam-cli = "spam:main_cli"
+
+# [project.gui-scripts]
+# spam-gui = "spam:main_gui"
+
+# [project.entry-points."spam.magical"]
+# tomatoes = "spam:main_tomatoes"
