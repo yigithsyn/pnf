@@ -22,8 +22,8 @@ classifiers = [
 ]
 
 
-# [project.optional-dependencies]
-# gui = ["PyQt5"]
+[project.optional-dependencies]
+testing = ["pytest"]
 # cli = [
 #   "rich",
 #   "click",
@@ -44,3 +44,7 @@ classifiers = [
 
 # [project.entry-points."spam.magical"]
 # tomatoes = "spam:main_tomatoes"
+
+[tool.pdm.version]
+source = "file"
+path = "src/__init__.py"
