@@ -5,7 +5,7 @@ build-backend = "pdm.backend"
 [project]
 name            = "pnf"
 dynamic         = ["version"]
-dependencies    = []
+dependencies    = ["scipy >= 1.9.0"]
 requires-python = ">=3.8"
 authors         = [
   {name = "Hüseyin YİĞİT", email = "yigit.hsyn@gmail.com"},
@@ -47,4 +47,11 @@ testing = ["pytest"]
 
 [tool.pdm.version]
 source = "file"
-path = "src/__init__.py"
+path   = "src/__init__.py"
+
+# [tool.pdm.version]
+# source           = "scm"
+# write_to         = "_version.py"
+# write_template   = "__version__ = '{}'"
+# version_format   = "pnf.version:format_version"
+# fallback_version = "1.0.0"
